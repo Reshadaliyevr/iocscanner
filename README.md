@@ -48,7 +48,6 @@
 ├── wazuh_rules/             # Generated Wazuh rule XMLs
 ├── tests/                   # Pytest-based test suite (live and offline)
 ├── .env                     # Store API keys and config variables
-├── main.py                  # CLI entry point for scans
 ├── requirements.txt         # Python dependencies
 └── README.md                # Project documentation
 ```
@@ -97,26 +96,3 @@ pytest tests/
 - `pandas` — structured data display
 - `pytest` — test framework
 - `rich` — optional CLI formatting
-
----
-
-## 📦 Future Improvements
-
-- YARA rule generation from Hybrid Analysis behavior
-- SIEM integrations (Elasticsearch, Splunk)
-- IOC attack graph visualization
-- STIX/TAXII/MISP threat feed ingestion
-- ML-based threat scoring
-
----
-
-## 📜 License
-
-MIT License
-
----
-
-## ✍️ Author
-
-Developed by **Rashad Aliyev** — a cybersecurity engineer focused on automation and threat intelligence tooling.
-
