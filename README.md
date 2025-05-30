@@ -77,6 +77,7 @@ cp .env.example .env  # then fill your API keys
 ### ▶️ Run the Streamlit App
 
 ```bash
+set PYTHONPATH=.
 python -m streamlit run interface/streamlit_app.py
 ```
 
