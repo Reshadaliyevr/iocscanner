@@ -103,7 +103,6 @@ python -m pytest -v tests/ --capture=tee-sys
 │
 ├── .env
 ├── LICENSE
-├── main.py
 └── requirements.txt
 ```
 
