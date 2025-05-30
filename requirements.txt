@@ -1,0 +1,7 @@
+pandas
+pytest
+python-dotenv
+requests
+rich
+streamlit
+tenacity
