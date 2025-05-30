@@ -105,13 +105,3 @@ python -m pytest -v tests/ --capture=tee-sys
 ├── LICENSE
 └── requirements.txt
 ```
-
-📋 Example Output
-IP Scan Summary
-```bash
-- VirusTotal flagged as malicious by 3 engines
-- AbuseIPDB confidence score 80
-⚠️ Final Verdict: SUSPICIOUS
-```
-
-
